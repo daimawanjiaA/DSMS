@@ -1,0 +1,12 @@
+# 测试conn.cpp有无语法错误
+g++ -c conn.cpp -I/usr/include/acl-lib/acl -I/usr/include/acl-lib/acl_cpp -I../common
+# 测试pool.cpp有无语法错误
+g++ -c pool.cpp -I/usr/include/acl-lib/acl -I/usr/include/acl-lib/acl_cpp -I../common
+# 测试db.cpp有无语法错误
+g++ -c db.cpp -I/usr/include/acl-lib/acl -I/usr/include/acl-lib/acl_cpp -I../common 
+# 测试mngr.cpp有无语法错误
+g++ -c mngr.cpp -I/usr/include/acl-lib/acl -I/usr/include/acl-lib/acl_cpp -I../common 
+# 测试id.cpp有无语法错误
+g++ -c id.cpp -I/usr/include/acl-lib/acl -I/usr/include/acl-lib/acl_cpp -I../common 
+# 测试client.cpp有无语法错误 
+g++ -c client.cpp -I/usr/include/acl-lib/acl -I/usr/include/acl-lib/acl_cpp -I../common

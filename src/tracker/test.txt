@@ -1,0 +1,13 @@
+# 测试globals.cpp有无语法错误
+g++ -c globals.cpp -I/usr/include/acl-lib/acl_cpp -I../common
+# 测试cache.cpp有无语法错误
+g++ -c cache.cpp -I/usr/include/acl-lib/acl_cpp -I../common
+# 测试db.cpp有无语法错误
+g++ -c db.cpp -I/usr/include/acl-lib/acl_cpp -I../common `mysql_config --cflags`
+# 测试service.cpp有无语法错误
+g++ -c service.cpp -I/usr/include/acl-lib/acl_cpp -I../common `mysql_config --cflags`
+# 测试status.cpp有无语法错误
+g++ -c status.cpp -I/usr/include/acl-lib/acl_cpp -I../common `mysql_config --cflags`
+# 测试server.cpp有无语法错误
+g++ -c server.cpp -I/usr/include/acl-lib/acl_cpp -I../common `mysql_config --cflags`
+ 
